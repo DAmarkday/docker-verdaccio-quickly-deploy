@@ -11,7 +11,7 @@ docker-verdaccio-quickly-deploy
 ├── dockerfile          // Docker build script
 ├── storage             // Generated files for storing published packages and Verdaccio cache
 ├── doc                 // Documentation
-│		├── img
+│   ├── img
 │   └── readme-En.md
 ├── readme.md
 └── deploy.sh           // One-click deployment script
