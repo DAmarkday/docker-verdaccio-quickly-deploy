@@ -55,6 +55,8 @@ Open a browser and navigate to `http://localhost:4873/`
 
 ![Web Interface](./img/2.jpg)
 
+publish
+
 ![Publish Success](./img/3.jpg)
 
 ![Publish Success](./img/4.jpg)
