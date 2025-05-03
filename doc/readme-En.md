@@ -1,5 +1,5 @@
 # Project Overview
-A one-click deployment for a private npm registry using Docker + Verdaccio. Compatible with macOS and Linux systems (file permission configurations have been removed).
+A one-click deployment for a private npm registry using Docker + Verdaccio. Compatible with `macOS` and `Linux` systems (file permission configurations have been removed).
 
 # Project Structure
 ```
@@ -72,7 +72,7 @@ Open a browser and navigate to `http://localhost:4873/`
 - **How to Back Up Data?**
   Simply back up the `storage` folder without modifying other configurations.
 
-- **Why Does `docker compose up` Fail to Start in macOS?**
+- **Why Does `docker compose up` Fail to Start in macOS?** <br />
   On macOS, ensure the Docker Desktop application is running to enable the Docker environment before building:
   ```bash
   open -a docker // Start Docker Desktop
