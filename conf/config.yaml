@@ -1,0 +1,58 @@
+storage: /verdaccio/storage
+web:
+  enable: true
+  title: verdaccio
+
+i18n:
+  web: zh-CN
+
+server:
+  keepAliveTimeout: 60
+
+auth:
+  htpasswd:
+    file: /verdaccio/conf/htpasswd
+    max_users: 9999
+
+security:
+  api:
+    jwt:
+      sign:
+        expiresIn: 30d
+        notBefore: 1
+  web:
+    sign:
+      expiresIn: 7d
+      
+uplinks:
+  npmjs:
+    url: https://registry.npmmirror.com/
+    timeout: 30s
+    cache: true
+    maxage: 1h
+    max_fails: 10
+    fail_timeout: 60s
+  npm_official:
+    url: http://mirrors.ustc.edu.cn/
+    cache: true
+    timeout: 30s
+    maxage: 1h
+    max_fails: 10
+    fail_timeout: 60s
+
+packages:
+  '**':
+    access: $all
+    proxy: npmjs npm_official
+
+middlewares:
+  audit:
+    enabled: true
+
+log:
+  type: stdout
+  format: pretty
+  level: http
+
+listen:
+  - 0.0.0.0:4873

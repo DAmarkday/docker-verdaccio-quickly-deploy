@@ -1,0 +1,23 @@
+name: npmprivate
+services:
+  verdaccio:
+    image: docker-verdaccio
+    user: 10001:10001
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: verdaccio
+    volumes:
+      - './storage:/verdaccio/storage:rw'
+      - './conf:/verdaccio/conf:rw'
+    ports:
+      - "4873:4873"
+    restart: unless-stopped
+    deploy:
+      resources:
+        limits:
+          cpus: '2'
+          memory: 4G
+        reservations:
+          cpus: '0.5'
+          memory: 1G
