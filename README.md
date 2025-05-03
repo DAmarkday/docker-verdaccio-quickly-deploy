@@ -64,6 +64,8 @@ sh deploy.sh
 
 ![web](./doc/img/2.jpg)
 
+
+发布依赖
 ![发布成功](./doc/img/3.jpg)
 
 
