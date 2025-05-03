@@ -27,10 +27,10 @@ docker-verdaccio-quickly-deploy
 
 # 操作步骤
 ## 前置要求
--	系统:	`mac`或`linux`,
+-	系统:	`mac` 或 `linux`
 -	linux基本的命令行操作知识
  -	适当的docker版本(新版本一般都集成了compose工具,不需要再单独下载安装,本文档是`v28.0.4`)
-- 源管理工具nrm的安装 
+- 源管理工具 `nrm` 的安装 
 
 ## 安装步骤
 ### 1. 克隆项目
