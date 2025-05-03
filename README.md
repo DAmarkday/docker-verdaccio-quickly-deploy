@@ -4,7 +4,7 @@ Chinese |  <a href="./doc/readme-En.md">English</a>
 
 # 项目简介
 
-一键式部署docker+verdaccio的npm私有库。在mac和linux系统上可以兼容使用(移除了文件权限等配置)。
+一键式部署docker+verdaccio的npm私有库。在 `mac` 和 `linux` 系统上可以兼容使用(移除了文件权限等配置)。
 
 # 项目结构
 ```
@@ -90,7 +90,7 @@ sh deploy.sh
 - 如何备份数据？
   在不调整其他配置的前提下备份storage文件夹即可。
 
-- 为什么在mac环境中使用docker compose up启动不了?
+- 为什么在mac环境中使用docker compose up启动不了? <br/>
   在mac环境中需要先启动 docker桌面端 开启docker环境,然后才能进行docker 构建。
   ```bash
   open -a docker // 启动桌面端docker 
