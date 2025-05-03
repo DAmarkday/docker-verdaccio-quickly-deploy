@@ -15,8 +15,8 @@ docker-verdaccio-quickly-deploy
 ├── compose.yaml        // docker-compose配置文件
 ├── dockerfile          // docker构建脚本
 ├── storage             // 构建生成的文件,用于存储发布的包和verdaccio相关缓存
-├── doc									// 文档  
-│		├──img						
+├── doc                 // 文档  
+│   ├──img						
 │   └──readme-En.md		
 ├── readme.md				
 └── deploy.sh           // 一键部署的脚本
