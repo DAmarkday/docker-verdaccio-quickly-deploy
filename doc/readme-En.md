@@ -1,5 +1,5 @@
 # Project Overview
-A one-click deployment for a private npm registry using Docker + Verdaccio. Compatible with `macOS` and `Linux` systems (file permission configurations have been removed).
+A one-click deployment for a private npm registry using `Docker` + `Verdaccio`. Compatible with `macOS` and `Linux` systems (file permission configurations have been removed).
 
 # Project Structure
 ```
