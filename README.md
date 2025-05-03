@@ -1,6 +1,6 @@
-# Language:   
+# Language
 
-Chinese|<a href="./doc/readme-En.md">English</a>
+Chinese |  <a href="./doc/readme-En.md">English</a>
 
 # 项目简介
 
@@ -17,7 +17,7 @@ docker-verdaccio-quickly-deploy
 ├── storage             // 构建生成的文件,用于存储发布的包和verdaccio相关缓存
 ├── doc									// 文档  
 │		├──img						
-│		└──readme-En.md		
+│   └──readme-En.md		
 ├── readme.md				
 └── deploy.sh           // 一键部署的脚本
 
@@ -39,7 +39,7 @@ docker-verdaccio-quickly-deploy
 ### 2. 运行项目
 #### 2.1 进入项目根目录
 ```bash
-cd 绝对路径/docker-verdaccio-quickly-deploy
+cd ~/verdaccio/docker-verdaccio-quickly-deploy
 ```
 #### 2.2 运行
 查看当前路径和根目录是否正确
