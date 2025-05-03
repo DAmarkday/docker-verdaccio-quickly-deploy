@@ -4,7 +4,7 @@ Chinese |  <a href="./doc/readme-En.md">English</a>
 
 # 项目简介
 
-一键式部署docker+verdaccio的npm私有库。在 `mac` 和 `linux` 系统上可以兼容使用(移除了文件权限等配置)。
+一键式部署 `docker` + `verdaccio` 的npm私有库。在 `mac` 和 `linux` 系统上可以兼容使用(移除了文件权限等配置)。
 
 # 项目结构
 ```
