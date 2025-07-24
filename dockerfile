@@ -1,4 +1,4 @@
-FROM verdaccio/verdaccio:6.1.2
+FROM verdaccio/verdaccio:6.1.5
 LABEL maintainer="ShiDong"
 
 USER root
